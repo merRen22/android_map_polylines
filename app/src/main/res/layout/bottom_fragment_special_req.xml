@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/selectMode_txt"
+        android:gravity="center"
+        android:text="@string/select_req"
+        style="@style/ActionItem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/chk_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/selectMode_txt"
+        android:gravity="start"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorDark"
+            android:text="@string/reqBB"
+            android:id="@+id/ckb_kids"
+            tools:targetApi="lollipop"
+            />
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:buttonTint="@color/colorDark"
+            android:layout_height="wrap_content"
+            android:text="@string/reqPets"
+            android:id="@+id/ckb_pets"
+            tools:targetApi="lollipop" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorDark"
+            tools:targetApi="lollipop"
+            android:text="@string/reqLuggage"
+            android:id="@+id/ckb_luggage"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        app:layout_constraintTop_toBottomOf="@+id/chk_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingRight="16dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/ib_init_trip"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/round_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:text="@string/init_ride"
+            />
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
