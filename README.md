@@ -3,16 +3,14 @@
 Sample project for drawing routes on google map as seen in below images 
 
  
-|  ![alt text](https://raw.githubusercontent.com/merRen22/android_map_polylines/master/imageSamples/initial_state.png?token=AICMF6JNK7KUCVOPIUT227S57QZW2.png) |  ![alt text](https://raw.githubusercontent.com/merRen22/android_map_polylines/master/imageSamples/line_draw.png?token=AICMF6OSFWEVBD5EAJAI7A257QZ5K.png) |
-
-Explanation can be seen on this medium article  =>  [URL]
+  ![alt text](https://raw.githubusercontent.com/merRen22/android_map_polylines/master/imageSamples/initial_state.png?token=AICMF6JNK7KUCVOPIUT227S57QZW2.png)   ![alt text](https://raw.githubusercontent.com/merRen22/android_map_polylines/master/imageSamples/line_draw.png?token=AICMF6OSFWEVBD5EAJAI7A257QZ5K.png) 
 
 ### Tech
 
 Dillinger uses a number of open source projects to work properly:
 
 * [GoogleMapsApi] - Used for generating routes
-* [Kotlin] - Why not?
+* [Kotlin]
 
 License
 ----
